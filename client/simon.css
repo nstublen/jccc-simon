@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+button {
+    height: 144pt;
+    outline: none;
+    width: 144pt;
+}
+
+.button1 {
+    background-color: green;
+    border-top-left-radius: 144pt;
+}
+
+.button1.highlight {
+    background: radial-gradient(circle at 60% 60%, lightgreen, green);
+}
+
+.button2 {
+    background-color: red;
+    border-top-right-radius: 144pt;
+}
+
+.button2.highlight {
+    background: radial-gradient(circle at 40% 60%, pink, red);
+}
+
+.button3 {
+    background-color: yellow;
+    border-bottom-left-radius: 144pt;
+}
+
+.button3.highlight {
+    background: radial-gradient(circle at 60% 40%, lightyellow, yellow);
+}
+
+.button4 {
+    background-color: blue;
+    border-bottom-right-radius: 144pt;
+}
+
+.button4.highlight {
+    background: radial-gradient(circle at 40% 40%, lightblue, blue);
+}
+
+.game-over {
+    background-color: gray;
+    pointer-events: none;
+}
+
+#start {
+    font-size: 25pt;
+    height: auto;
+    padding: 2pt 8pt;
+    width: auto;
+}
+
+#game-controls {
+    padding: 10pt;
+}
